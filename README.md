@@ -1,8 +1,7 @@
-# Subspace Distribution Adaptation Methods
+# Subspace Distribution Adaptation Framework
 
-This repository provides a python 2 implementation (JDIP.py) of the domain adaptation approach JDIP. The implementation relies on the pymanopt toolbox available at https://www.pymanopt.org/. The jupyter notebook demo.ipynb shows how to run this method in a semi-supervised domain adaptation setting.
-
-Briefly speaking, the goal of JDIP is to solve the joint distribution mismatch problem in domain adaptation. To this end, it exploits a couple of points on the Stiefel manifold to match the source and target joint distributions under the $L^{2}$-distance. The following figure illustrates this joint distribution matching idea.
+This repository provides the pdf file of the paper "Subspace distribution adaptation frameworks for domain adaptation" published in IEEE TNNLS.
+In a nutshell, this paper introduces the generalized covariate shift assumption to the domain adaptation problem, and proposed a subspace distribution adaptation framework that aligns the source distribution to the target distribution under the Bregman divergence in a subspace. By properly choosing the seed function of the Bregman divergence, the framework can lead to convex optimization problems.
 
 
 For more details of this domain adaptation approach,  please refer to our IEEE TNNLS work: 
