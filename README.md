@@ -1,4 +1,4 @@
-# Subspace-Distribution-Adaptation-Methods
+# Subspace Distribution Adaptation Methods
 
 This repository provides a python 2 implementation (JDIP.py) of the domain adaptation approach JDIP. The implementation relies on the pymanopt toolbox available at https://www.pymanopt.org/. The jupyter notebook demo.ipynb shows how to run this method in a semi-supervised domain adaptation setting.
 
